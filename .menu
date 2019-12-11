@@ -78,7 +78,7 @@ term.clear()
 if nOption  == 1 then
 shell.run("os/.command")
 elseif nOption == 2 then
-shell.run("os/timos")
+shell.run("os/.fileexplore")
 elseif nOption == 3 then
 os.shutdown()
 else
