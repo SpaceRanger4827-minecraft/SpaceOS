@@ -6,7 +6,7 @@ print "Installing"
   print("Installing Operating System Files")
   textutils.slowPrint("# # # # # # # #")
   local function get(repoFile,saveTo)
-  local download = http.get("https://raw.github.com/myName/repo/repoFile") --This will make 'download' hold the contents of the file.
+  local download = http.get("https://raw.github.com/SpaceRanger4827-minecraft/SpaceOS/") --This will make 'download' hold the contents of the file.
   if download then --checks if download returned true or false
   local handle = download.readAll() --Reads everything in download
   download.close() --remember to close the download!
@@ -19,6 +19,10 @@ print "Installing"
    print("an internet connection!")
   end --end the if
 end --close the function
+  get("startup.lua","startup")
+  get("back.lua","back") 
+  get("os/.command.lua","os/.command") --remember the quotation marks! (" ")
+  get(".menu",".menu") --remember the quotation marks! (" ")
   sleep(5)
   print("Finished")
   print("Grabbing Apps")
