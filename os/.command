@@ -1,0 +1,5 @@
+term.clear()
+term.setCursorPos(1,1)
+print("Command Prompt")
+print("To Return to OS type 'back'")
+print("------------------------")
