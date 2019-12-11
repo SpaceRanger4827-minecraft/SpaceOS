@@ -1,0 +1,12 @@
+version = 1.4
+print("Installing Operating System Files")
+textutils.slowPrint("# # # # # # # #")
+sleep(5)
+print("Finished")
+print("Grabbing Apps")
+textutils.slowPrint("# # # # # # # #")
+sleep(5)
+textutils.slowPrint("# # # # # # # #")
+print("Finishing Up Last toutches")
+print("Re-Booting")
+shell.run("reboot")
